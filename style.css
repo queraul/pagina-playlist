@@ -1,39 +1,13 @@
-#savebutton{
+.button{
 background:#FFFFFF;
-margin:7px;
-background-image: url("img/save.jpg");
+margin:0px 10px 0px 10px;
 background-repeat: no-repeat;
 background-position: center;
-padding: 10px 10px 10px 10px;
+padding: 5px 5px 1px 5px;
 float: right;
 border:  2px solid;
 border-radius: 5px;
 }
-
-#loadbutton{
-background:#FFFFFF;
-margin:7px;
-background-image: url("img/load.jpg");
-background-repeat: no-repeat;
-background-position: center;
-padding: 10px 10px 10px 10px;
-float: right;
-border:  2px solid;
-border-radius: 5px;
-}
-
-#addbutton{
-background:#FFFFFF;
-margin:7px;
-background-image: url("img/add.jpg");
-background-repeat: no-repeat;
-background-position: center;
-padding: 10px 10px 10px 10px;
-float: right;
-border:  2px solid;
-border-radius: 5px;
-}
-
 
 #container {
 text-align: center;
@@ -43,13 +17,11 @@ overflow: hidden;
 #left {
 float:left;
 margin:10px;
-
 }
 
 #right{
 float:right;
 margin:30px;
-
 }
 
 #center{
@@ -58,62 +30,21 @@ font-size:50px;
 margin:15px;
 }
 
-
-#editbutton {
-
-background:#FFFFFF;
-margin-left:10px;
-background-image: url("img/edit.jpg");
-background-repeat: no-repeat;
-background-position: center;
-padding: 10px 10px 10px 10px;
-float: right;
-border:  2px solid;
-border-radius: 5px;
-
-}
-
-
-
-#deletebutton { 
-
-background:#FFFFFF;
-margin-left:10px;
-background-image: url("img/delete.jpg");
-background-repeat: no-repeat;
-background-position: center;
-padding: 10px 10px 10px 10px;
-float: right;
-border:  2px solid;
-border-radius: 5px;
-
-}
-
-
-#eventable {
-
+.table{
 font-family: arial;
 font-size: 20px;
 font-weight: 400;
-color: #000000;
-background:#D8D8D8;
-margin: 10px;
-padding: 10px;
+margin: 10px 10px 10px 10px;
+padding: 5px 10px 13px 10px;
 border:  2px solid;
 border-radius: 10px;
-
 }
 
-#oddtable {
-
-font-family: arial;
-font-size: 20px;
-font-weight: 400;
-color: #000000;
+.odd{
 background:#BDBDBD;
-margin: 10px;
-padding: 10px;
-border:  2px solid;
-border-radius: 10px;
-
 }
+
+.even{
+background:#D8D8D8;
+}
+
