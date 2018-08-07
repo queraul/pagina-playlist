@@ -1,6 +1,6 @@
 .button {
   background:#FFF no-repeat center;
-  margin:0px 10px;
+  margin:1px 10px;
   padding: 5px 5px 1px;
   float: right;
   border:  2px solid;
@@ -10,6 +10,10 @@
 header {
   text-align: center;
   overflow: hidden;
+}
+
+.grid {
+  display:grid;
 }
 
 #left {
@@ -30,15 +34,20 @@ header {
   font-size: 20px;
   font-weight: 400;
   margin: 10px;
-  padding: 5px 10px 13px;
+  padding: 2px 5px 7px;
+  border-radius: 10px;
+}
+
+li {
+  margin: 10px;
   border:  2px solid;
   border-radius: 10px;
 }
 
-.odd {
-  background:#BDBDBD;
+li:nth-child(odd) {
+  background:#A4A4A4; 
 }
 
-.even {
+li:nth-child(even) {
   background:#D8D8D8;
 }
